@@ -1,0 +1,7 @@
+Credentials cache: API:31960
+        Principal: bviseu-l@42.US.ORG
+
+  Issued                Expires               Principal
+Mar 13 18:50:39 2018  Mar 14 04:50:39 2018  krbtgt/42.US.ORG@42.US.ORG
+Mar 13 18:50:40 2018  Mar 14 04:50:39 2018  ldap/ldap-proxy.42.us.org@42.US.ORG
+Mar 13 19:10:47 2018  Mar 14 04:50:39 2018  host/vgs-fn1.42.us.org@42.US.ORG
