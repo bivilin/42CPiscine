@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fr_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bviseu-l <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: adfische <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/03/15 20:01:08 by bviseu-l          #+#    #+#             */
-/*   Updated: 2018/03/15 22:13:06 by bviseu-l         ###   ########.fr       */
+/*   Created: 2018/03/18 14:57:21 by adfische          #+#    #+#             */
+/*   Updated: 2018/03/18 14:58:15 by adfische         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_putchar(char c);
+#include <unistd.h>
 
-void	ft_print_alphabet(void)
+void	ft_putchar(char c)
 {
-	int i;
-
-	i = 'a';
-	while (i <= 'z')
-	{
-		ft_putchar(i);
-		i++;
-	}
+	write(1, &c, 1);
 }
